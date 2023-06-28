@@ -4,3 +4,4 @@
 + Prison Life [Not Available]
 + JailBreak [Not Available]
 + Ninja Legends [Not Available]
++ The Rake: Remastered [Available and Working]
