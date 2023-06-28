@@ -7,7 +7,12 @@ if game.PlaceId == 189707 then
 else
     game:GetService("StarterGui"):SetCore("SendNotification",{
 	  Title = "WARNING", -- Required
-	  Text = "Game is not whitelisted! Loading Universal",
+	  Text = "Game is not whitelisted, Loading Universal",
   })
-  lodastring(game:HttpGet("https://raw.githubusercontent.com/ch4dlovespizza64/Guizon/main/universal/UNIVERSAL.lua"))()
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+	  Title = "ERROR", -- Required
+	  Text = "Universal is currently unavailable!",
+	Duration = 99
+  })
+  
 end
