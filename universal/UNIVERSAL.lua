@@ -254,7 +254,7 @@ Miscellaneous2:NewTextBox("Teleporter [Username Input Require!]", "Teleport to t
 players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(players[_G.TeleportToTarget].Character.HumanoidRootPart.Position)
 end)
 
-Funny:NewButton("Teleporter [Username Input Require!]", "Teleport to that person", function()
+Funny:NewButton("ESP", "Look to that person", function()
     loadstring(game:HttpGet"https://pastebin.com/raw/nqyGkWvx",true)()
 end)
 
