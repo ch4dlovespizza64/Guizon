@@ -9,5 +9,5 @@ else
 	  Title = "WARNING", -- Required
 	  Text = "Game is not whitelisted! Loading Universal",
   })
-  game.Players.LocalPlayer:Kick("Sorry for kicking you out of the game\nThe game your currently playing isn't whitelisted!")
+  lodastring(game:HttpGet("https://raw.githubusercontent.com/ch4dlovespizza64/Guizon/main/universal/UNIVERSAL.lua"))()
 end
